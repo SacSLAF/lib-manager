@@ -1,8 +1,8 @@
 {
-    "numFound": 1597162,
+    "numFound": 1597209,
     "start": 0,
     "numFoundExact": true,
-    "num_found": 1597162,
+    "num_found": 1597209,
     "documentation_url": "https://openlibrary.org/dev/docs/api/search",
     "q": "subject:fiction",
     "offset": null,
@@ -943,8 +943,8 @@
             "ia_collection_s": "inlibrary;internetarchivebooks;printdisabled",
             "key": "/works/OL25571500W",
             "language": [
-                "eng",
-                "rus"
+                "rus",
+                "eng"
             ],
             "lending_edition_s": "OL34818365M",
             "lending_identifier_s": "notesfromundergr0000unse_d5z7",
@@ -1405,7 +1405,6 @@
                 "invisibleman0000well_j2t3",
                 "invisibleman0000unse_a4l9",
                 "invisibleman0000well",
-                "invisibleman0000well_h9n6",
                 "invisiblemanandw00elli",
                 "invisiblemanisla00well",
                 "invisibleman0000davi",
@@ -1423,6 +1422,7 @@
                 "invisibleman0000well_v9m2",
                 "invisibleman00well_0",
                 "elhombreinvisibl0000bind",
+                "invisibleman0000well_h9n6",
                 "invisibleman0000well_z0e4",
                 "invisibleman00hgwe",
                 "invisiblemangrot0000well_d2a2",
@@ -1943,25 +1943,25 @@
             "ia_collection_s": "americana;americanuniversity-ol;barryuniversity-ol;belmont-ol;binghamton-ol;bostonuniversitylibraries-ol;cnusd-ol;cua-ol;dartmouthlibrary-ol;delawarecountydistrictlibrary;delawarecountydistrictlibrary-ol;denverpubliclibrary-ol;drakeuniversity-ol;framingham-ol;goffstownlibrary-ol;gwulibraries-ol;hamiltonpubliclibrary-ol;inlibrary;internetarchivebooks;ithacacollege-ol;johnshopkins-ol;kalamazoocollege-ol;library_of_atlantis;marygrovecollege;miltonpubliclibrary-ol;occidentalcollegelibrary-ol;openlibrary-d-ol;printdisabled;randolph-macon-college-ol;riceuniversity-ol;rochester-ol;spokanepubliclibrary-ol;stmaryscountylibrary;the-claremont-colleges-ol;tulsacc-ol;udc-ol;unb-ol;uni-ol;universityofarizona-ol;universityofcoloradoboulder-ol;universityofoklahoma-ol;urbanschool;wilsoncollege-ol;worthingtonlibraries-ol",
             "key": "/works/OL39349W",
             "language": [
-                "dut",
-                "fre",
-                "por",
-                "spa",
-                "nor",
                 "srp",
-                "chi",
-                "eng",
-                "heb",
-                "cze",
-                "ita",
-                "slv",
-                "hun",
-                "ger",
-                "swe",
-                "hrv",
+                "nor",
                 "fin",
                 "cat",
-                "dan"
+                "hrv",
+                "ger",
+                "ita",
+                "dan",
+                "cze",
+                "spa",
+                "slv",
+                "dut",
+                "hun",
+                "eng",
+                "por",
+                "chi",
+                "fre",
+                "heb",
+                "swe"
             ],
             "lending_edition_s": "OL16523231M",
             "lending_identifier_s": "mrsdalloway00wool",
@@ -2561,13 +2561,13 @@
             "ia_collection_s": "americana;bannedbooks;binghamton-ol;bostonpubliclibrary;bostonuniversitylibraries-ol;bplhoughton;cdl;cnusd-ol;cornell;cua-ol;dartmouthlibrary-ol;delawarecountydistrictlibrary;delawarecountydistrictlibrary-ol;denverpubliclibrary-ol;drakeuniversity-ol;framingham-ol;gwulibraries-ol;hamiltonpubliclibrary-ol;inlibrary;internetarchivebooks;johnshopkins-ol;library_of_atlantis;marymount-ol;openlibrary-d-ol;printdisabled;randolph-macon-college-ol;riceuniversity-ol;robarts;rochester-ol;salisburyfreelibrary-ol;spokanepubliclibrary-ol;stmaryscountylibrary;the-claremont-colleges-ol;toronto;trent_university;tulsacc-ol;udc-ol;unb-ol;uni-ol;university_of_toronto;universityofcoloradoboulder-ol;uslprototype;worthingtonlibraries-ol",
             "key": "/works/OL12791W",
             "language": [
-                "fre",
-                "ger",
-                "rus",
                 "cze",
-                "chi",
+                "eng",
                 "spa",
-                "eng"
+                "ger",
+                "chi",
+                "fre",
+                "rus"
             ],
             "lending_edition_s": "OL7250255M",
             "lending_identifier_s": "myantonia00cathrich",
@@ -3048,61 +3048,6 @@
         },
         {
             "author_key": [
-                "OL31574A"
-            ],
-            "author_name": [
-                "C.S. Lewis"
-            ],
-            "cover_edition_key": "OL6200309M",
-            "cover_i": 6529226,
-            "edition_count": 106,
-            "first_publish_year": 1956,
-            "has_fulltext": true,
-            "ia": [
-                "saigonotatakai0000lewi",
-                "lastbattlebycsle0000lewi",
-                "lascronicasdenar0000csle",
-                "lastbattle0000lewi_g7z5",
-                "lastbattle0000lewi_q5p8",
-                "laltimabatalla0000lewi",
-                "lastbattlelewi00lewi",
-                "lastbattle1994lewi",
-                "lastbattle0000lewi_i3l8",
-                "lastbattlechroni00csle",
-                "lastbattle0000lewi_r1a9",
-                "isbn_9780060884796",
-                "lastbattle0000lewi_m5a0",
-                "lastbattlethechr00csle_0",
-                "lastbattle00csle",
-                "lastbattle00lewi_0",
-                "lastbatt00lewi",
-                "lastbattle000lewi",
-                "lastbattle00lewi",
-                "lastbattlethechr00csle",
-                "lastbattle0000lewi_q1a2",
-                "lecronachedinarn00lewi_136",
-                "lastbattlenarnia00lewi"
-            ],
-            "ia_collection_s": "ambslibrary-ol;americana;bpljordan-ol;cnusd-ol;delawarecountydistrictlibrary;delawarecountydistrictlibrary-ol;inlibrary;internetarchivebooks;library_of_atlantis;litigationworks;occidentalcollegelibrary-ol;openlibrary-d-ol;phillipsacademy-preview;printdisabled;riceuniversity-ol;rochester-ol;stmaryscountylibrary;worthingtonlibraries-ol",
-            "key": "/works/OL71124W",
-            "language": [
-                "eng",
-                "chi",
-                "vie",
-                "ita",
-                "spa",
-                "pol",
-                "ger",
-                "swe",
-                "jpn"
-            ],
-            "lending_edition_s": "OL33336356M",
-            "lending_identifier_s": "saigonotatakai0000lewi",
-            "public_scan_b": false,
-            "title": "The Last Battle"
-        },
-        {
-            "author_key": [
                 "OL124171A"
             ],
             "author_name": [
@@ -3212,6 +3157,61 @@
             "public_scan_b": false,
             "subtitle": "Die Geschichte von Emil Sinclairs Jugend",
             "title": "Demian"
+        },
+        {
+            "author_key": [
+                "OL31574A"
+            ],
+            "author_name": [
+                "C.S. Lewis"
+            ],
+            "cover_edition_key": "OL6200309M",
+            "cover_i": 6529226,
+            "edition_count": 106,
+            "first_publish_year": 1956,
+            "has_fulltext": true,
+            "ia": [
+                "saigonotatakai0000lewi",
+                "lastbattlebycsle0000lewi",
+                "lascronicasdenar0000csle",
+                "lastbattle0000lewi_g7z5",
+                "lastbattle0000lewi_q5p8",
+                "laltimabatalla0000lewi",
+                "lastbattlelewi00lewi",
+                "lastbattle1994lewi",
+                "lastbattle0000lewi_i3l8",
+                "lastbattlechroni00csle",
+                "lastbattle0000lewi_r1a9",
+                "isbn_9780060884796",
+                "lastbattle0000lewi_m5a0",
+                "lastbattlethechr00csle_0",
+                "lastbattle00csle",
+                "lastbattle00lewi_0",
+                "lastbatt00lewi",
+                "lastbattle000lewi",
+                "lastbattle00lewi",
+                "lastbattlethechr00csle",
+                "lastbattle0000lewi_q1a2",
+                "lecronachedinarn00lewi_136",
+                "lastbattlenarnia00lewi"
+            ],
+            "ia_collection_s": "ambslibrary-ol;americana;bpljordan-ol;cnusd-ol;delawarecountydistrictlibrary;delawarecountydistrictlibrary-ol;inlibrary;internetarchivebooks;library_of_atlantis;litigationworks;occidentalcollegelibrary-ol;openlibrary-d-ol;phillipsacademy-preview;printdisabled;riceuniversity-ol;rochester-ol;stmaryscountylibrary;worthingtonlibraries-ol",
+            "key": "/works/OL71124W",
+            "language": [
+                "eng",
+                "pol",
+                "spa",
+                "ger",
+                "chi",
+                "ita",
+                "vie",
+                "jpn",
+                "swe"
+            ],
+            "lending_edition_s": "OL33336356M",
+            "lending_identifier_s": "saigonotatakai0000lewi",
+            "public_scan_b": false,
+            "title": "The Last Battle"
         },
         {
             "author_key": [
@@ -3604,79 +3604,6 @@
         },
         {
             "author_key": [
-                "OL13066A"
-            ],
-            "author_name": [
-                "H. G. Wells"
-            ],
-            "cover_edition_key": "OL9236546M",
-            "cover_i": 36314,
-            "edition_count": 428,
-            "first_publish_year": 1898,
-            "has_fulltext": true,
-            "ia": [
-                "laguerredesmonde00well",
-                "borbasvitiv00well_0",
-                "warofworlds00well_3",
-                "warofworlds1898well",
-                "warofworlds00welluoft",
-                "laguerredesmonde0000well",
-                "warofworlds0000well_v2y6",
-                "warofworlds0000well_p4j3",
-                "warofworlds0000well_d7a6",
-                "warofworldsthe0000well",
-                "warofworlds0000well_g0p3",
-                "warofworlds1997well",
-                "warofworlds00well_0",
-                "warofworlds00well",
-                "warofworlds0000unse",
-                "warofworlds0000well_s2i8",
-                "warofworldskapla0000well",
-                "womenoffaithindi00moll",
-                "1978warofworlds00well",
-                "warofworlds00hgwe",
-                "warofworldsba00hgwe",
-                "warofworlds0000well_z4z8",
-                "warofworlds00hgwe_4",
-                "laguerradelosmun0000well_g2b8",
-                "warofworldsintro00hgwe",
-                "warofworldsfresh0000well",
-                "warofworlds0000well_y5e4",
-                "warofworlds0000well_t0j9",
-                "laguerradelosmun0000well",
-                "warofworldsto00hgwe",
-                "warofworlds0000well_u3j9",
-                "warofworldssigne00hgwe",
-                "warofworlds00well_4",
-                "derkriegderwelte00well",
-                "warofworlds0000well",
-                "warworldstorclas00well",
-                "warworlds00well",
-                "warworlds00well_209"
-            ],
-            "ia_collection_s": "additional_collections;ambslibrary-ol;americana;americanuniversity-ol;bannedbooks;barryuniversity-ol;belmont-ol;binghamton-ol;bostonuniversitylibraries-ol;brigham_young_university;cnusd-ol;cua-ol;dartmouthlibrary-ol;delawarecountydistrictlibrary-ol;duke_libraries;framingham-ol;gwulibraries-ol;inlibrary;internetarchivebooks;library_of_congress;openlibrary-d-ol;printdisabled;riceuniversity-ol;robarts;rochester-ol;salisburyfreelibrary-ol;sciencefiction;stmaryscountylibrary;thomasfisher;thomasfishercanadiana;toronto;uhmauicollege-ol;unb-ol;uni-ol;university_of_toronto;universityofcoloradoboulder-ol;universityofoklahoma-ol;universityofthewest-ol;wilsoncollege-ol;worthingtonlibraries-ol;wrlc-ol",
-            "key": "/works/OL52114W",
-            "language": [
-                "dan",
-                "mon",
-                "spa",
-                "ita",
-                "dut",
-                "ger",
-                "eng",
-                "chi",
-                "fre",
-                "ukr",
-                "por",
-                "und"
-            ],
-            "lending_edition_s": "OL25656925M",
-            "lending_identifier_s": "laguerredesmonde00well",
-            "public_scan_b": true,
-            "title": "The War of the Worlds"
-        },
-        {
-            "author_key": [
                 "OL161167A"
             ],
             "author_name": [
@@ -3761,6 +3688,79 @@
                 "1512",
                 "323"
             ]
+        },
+        {
+            "author_key": [
+                "OL13066A"
+            ],
+            "author_name": [
+                "H. G. Wells"
+            ],
+            "cover_edition_key": "OL9236546M",
+            "cover_i": 36314,
+            "edition_count": 428,
+            "first_publish_year": 1898,
+            "has_fulltext": true,
+            "ia": [
+                "laguerredesmonde00well",
+                "borbasvitiv00well_0",
+                "warofworlds00well_3",
+                "warofworlds1898well",
+                "warofworlds00welluoft",
+                "laguerredesmonde0000well",
+                "warofworlds0000well_v2y6",
+                "warofworlds0000well_p4j3",
+                "warofworlds0000well_d7a6",
+                "warofworldsthe0000well",
+                "warofworlds0000well_g0p3",
+                "warofworlds1997well",
+                "warofworlds00well_0",
+                "warofworlds00well",
+                "warofworlds0000unse",
+                "warofworlds0000well_s2i8",
+                "warofworldskapla0000well",
+                "womenoffaithindi00moll",
+                "1978warofworlds00well",
+                "warofworlds00hgwe",
+                "warofworldsba00hgwe",
+                "warofworlds0000well_z4z8",
+                "warofworlds00hgwe_4",
+                "laguerradelosmun0000well_g2b8",
+                "warofworldsintro00hgwe",
+                "warofworldsfresh0000well",
+                "warofworlds0000well_y5e4",
+                "warofworlds0000well_t0j9",
+                "laguerradelosmun0000well",
+                "warofworldsto00hgwe",
+                "warofworlds0000well_u3j9",
+                "warofworldssigne00hgwe",
+                "warofworlds00well_4",
+                "derkriegderwelte00well",
+                "warofworlds0000well",
+                "warworldstorclas00well",
+                "warworlds00well",
+                "warworlds00well_209"
+            ],
+            "ia_collection_s": "additional_collections;ambslibrary-ol;americana;americanuniversity-ol;bannedbooks;barryuniversity-ol;belmont-ol;binghamton-ol;bostonuniversitylibraries-ol;brigham_young_university;cnusd-ol;cua-ol;dartmouthlibrary-ol;delawarecountydistrictlibrary-ol;duke_libraries;framingham-ol;gwulibraries-ol;inlibrary;internetarchivebooks;library_of_congress;openlibrary-d-ol;printdisabled;riceuniversity-ol;robarts;rochester-ol;salisburyfreelibrary-ol;sciencefiction;stmaryscountylibrary;thomasfisher;thomasfishercanadiana;toronto;uhmauicollege-ol;unb-ol;uni-ol;university_of_toronto;universityofcoloradoboulder-ol;universityofoklahoma-ol;universityofthewest-ol;wilsoncollege-ol;worthingtonlibraries-ol;wrlc-ol",
+            "key": "/works/OL52114W",
+            "language": [
+                "eng",
+                "por",
+                "spa",
+                "ger",
+                "chi",
+                "ita",
+                "mon",
+                "fre",
+                "dan",
+                "und",
+                "ukr",
+                "dut"
+            ],
+            "lending_edition_s": "OL25656925M",
+            "lending_identifier_s": "laguerredesmonde00well",
+            "public_scan_b": true,
+            "title": "The War of the Worlds"
         },
         {
             "author_key": [
@@ -4624,8 +4624,6 @@
                 "connecticutyank100twai",
                 "isbn_9780688063467",
                 "connecticutyank400twai",
-                "connecticutyanke0000twai",
-                "connecticutyanke0000mark_u2h8",
                 "connecticutyank300twai",
                 "connecticutyanke00clem",
                 "connecticutyanke00wash",
@@ -4634,6 +4632,8 @@
                 "connecticutyanke00mark",
                 "connyankeeinking00twai",
                 "connecticutyanke0000twai_f5i1",
+                "connecticutyanke0000twai",
+                "connecticutyanke0000mark_u2h8",
                 "isbn_9780553211436",
                 "isbn_9780451524751",
                 "connecticutyanke00twai_502",
@@ -4996,6 +4996,53 @@
         },
         {
             "author_key": [
+                "OL113611A"
+            ],
+            "author_name": [
+                "Jules Verne"
+            ],
+            "cover_edition_key": "OL13523352M",
+            "cover_i": 5943556,
+            "edition_count": 167,
+            "first_publish_year": 1865,
+            "has_fulltext": true,
+            "ia": [
+                "delaterrelalu00vern",
+                "delaterrelalun00vern",
+                "cu31924086273913",
+                "cu31924052535725",
+                "fromearthtomoonr00vern",
+                "delaterrelalun00vernuoft",
+                "delatierralaluna0000vern",
+                "delatierralaluna0000unse",
+                "delaterrealalune0000vern",
+                "delaterrealalune0000vern_h5k2",
+                "delaterrealalune0000vern_q0p5",
+                "fromearthtomoo00vern",
+                "fromearthtomoonb0000vern",
+                "delatierralaluna00vern",
+                "delaterrelalune00vern"
+            ],
+            "ia_collection_s": "additional_collections;americana;blc;cornell;gerstein;inlibrary;internetarchivebooks;johnshopkins-ol;kellylibrary;newyorkpubliclibrary;printdisabled;sablecentre;sciencefiction;toronto;trent_university;umassdartmouthclairetcarney;university_of_toronto;universityofottawa",
+            "key": "/works/OL1099479W",
+            "language": [
+                "cze",
+                "eng",
+                "spa",
+                "ger",
+                "fre",
+                "hun"
+            ],
+            "lending_edition_s": "OL24244318M",
+            "lending_identifier_s": "delaterrelalu00vern",
+            "public_scan_b": true,
+            "title": "De la terre \u00e0 la lune",
+            "id_standard_ebooks": [
+                "jules-verne/from-the-earth-to-the-moon/ward-lock-co"
+            ]
+        },
+        {
+            "author_key": [
                 "OL18319A"
             ],
             "author_name": [
@@ -5316,14 +5363,14 @@
             "ia_collection_s": "americana;barryuniversity-ol;binghamton-ol;cnusd-ol;delawarecountydistrictlibrary;delawarecountydistrictlibrary-ol;denverpubliclibrary-ol;gwulibraries-ol;inlibrary;internetarchivebooks;kalamazoocollege-ol;library_of_atlantis;miltonpubliclibrary-ol;openlibrary-d-ol;printdisabled;stmaryscountylibrary;uhmauicollege-ol;worthingtonlibraries-ol",
             "key": "/works/OL17365W",
             "language": [
-                "dut",
-                "ita",
+                "eng",
+                "por",
                 "spa",
                 "ger",
-                "eng",
-                "rus",
+                "ita",
                 "fre",
-                "por"
+                "rus",
+                "dut"
             ],
             "lending_edition_s": "OL26768420M",
             "lending_identifier_s": "2001lodysseedele0000clar",
@@ -6066,83 +6113,6 @@
             ],
             "id_project_gutenberg": [
                 "45448"
-            ]
-        },
-        {
-            "author_key": [
-                "OL215610A"
-            ],
-            "author_name": [
-                "Jerome Klapka Jerome"
-            ],
-            "cover_edition_key": "OL23348263M",
-            "cover_i": 8243006,
-            "edition_count": 726,
-            "first_publish_year": 1889,
-            "has_fulltext": true,
-            "ia": [
-                "threemenonbummel00jerouoft",
-                "threemeninboat00jero_1",
-                "threemeninboatto00jerorich",
-                "threemenbum00jero",
-                "threemeninboatto00jero_1",
-                "threemeninboatto00jeroiala",
-                "threemenonbummel0000jero_z1r1",
-                "threemenonbummel0000unse",
-                "threemenonbummel0000jero_f0d4",
-                "threemenonbummel0000jero_y5q7",
-                "threemenonbummel0000jero_q8h2",
-                "botuwiuisenamjat0000jero",
-                "threemeninboatto0000jero_s5x4",
-                "threemeninboat0000jero_d1f4",
-                "threemeninboatto0000jero_l0v4",
-                "threemeninboat0000unse_u1a4",
-                "threemenonbummel0000jero_h3z0",
-                "threemenonbummel0000jero_y3i4",
-                "threemenonbummel0000jero_w2y5",
-                "threemenonbummel0000jero",
-                "threemeninboatto0000jero_i1b3",
-                "tosaynothingofdo0000jero",
-                "threemeninboatto0000jero_h1l8",
-                "threemeninboatto0000jero_o6v1",
-                "threemeninboatto0000jero_a5d2",
-                "threemeninboatto0000fran",
-                "threemeninboat0000jero_g1v6",
-                "threemeninboat0000unse_o7m1",
-                "threemeninboat0000jero_l2z7",
-                "threemeninboat0000jero_u7c8",
-                "laspigareaderspo00_1",
-                "threemeninboat0000jero",
-                "threemeninboat0000jero_y9k0",
-                "threemeninboatto0000jero_a4o8",
-                "threemeninboat00jero",
-                "threemeninboatto0000jero_w5u9",
-                "threemeninboatto0000jero_w9r1",
-                "threemeninboatth0000jero"
-            ],
-            "ia_collection_s": "americana;americanuniversity-ol;binghamton-ol;cdl;delawarecountydistrictlibrary;gwulibraries-ol;hamiltonpubliclibrary-ol;inlibrary;internetarchivebooks;johnshopkins-ol;library_of_atlantis;openlibrary-d-ol;printdisabled;riceuniversity-ol;robarts;rochester-ol;tesseract_test;toronto;ubclibrary;university_of_illinois_urbana-champaign;university_of_toronto;universityofarizona-ol;universityofcoloradoboulder-ol;wilsoncollege-ol;worthingtonlibraries-ol",
-            "key": "/works/OL1793164W",
-            "language": [
-                "kor",
-                "spa",
-                "dut",
-                "ita",
-                "heb",
-                "eng",
-                "ger",
-                "epo",
-                "rus",
-                "guj",
-                "fre",
-                "vie",
-                "und"
-            ],
-            "lending_edition_s": "OL7134344M",
-            "lending_identifier_s": "threemenonbummel00jerouoft",
-            "public_scan_b": true,
-            "title": "Three Men in a Boat (to say nothing of the dog)",
-            "id_standard_ebooks": [
-                "jerome-k-jerome/three-men-in-a-boat"
             ]
         }
     ]

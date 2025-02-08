@@ -102,3 +102,11 @@ $AllBooks = fetchAllBooks();
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.11/dist/css/splide.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+
+
+ <!-- Copyright (c) 2025 Sachintha Subasinghe
+ * LibraFlow. All rights reserved.
+ * 
+ * This code is the intellectual property of Sachintha Subasinghe.
+ * Unauthorized copying, modification, distribution, or use 
+ * without explicit permission is strictly prohibited. -->

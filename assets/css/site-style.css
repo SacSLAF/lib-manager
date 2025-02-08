@@ -1,599 +1,633 @@
 /* Global Styles */
 body {
-    font-family: 'Georgia', serif; /* Classic reading font */
-    margin: 0;
-    padding: 0;
-    background-color: #faf3e0; /* Soft parchment color */
-    color: #3e3e3e; /* Dark grey for readability */
+  font-family: "Georgia", serif; /* Classic reading font */
+  margin: 0;
+  padding: 0;
+  background-color: #faf3e0; /* Soft parchment color */
+  color: #3e3e3e; /* Dark grey for readability */
 }
 /* header area nav */
 /* General Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", serif;
 }
 
 /* Header */
 header {
-    background-color: #006a63; /* Rich teal */
-    color: #fff;
-    width: 100%;
-    padding: 15px 20px;
-    text-align: center;
-    /* position: relative; */
-    top: 0;
-    position: fixed;
-    transition: top 0.5s ease;
-    z-index: 1000;
+  background-color: #006a63; /* Rich teal */
+  color: #fff;
+  width: 100%;
+  padding: 15px 20px;
+  text-align: center;
+  /* position: relative; */
+  top: 0;
+  position: fixed;
+  transition: top 0.5s ease;
+  z-index: 1000;
 }
 
 header.hidden {
-    top: -100px;
+  top: -100px;
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* Logo */
 .logo h1 {
-    margin: 0;
-    font-size: 2rem;
+  margin: 0;
+  font-size: 2rem;
 }
 
 /* Navigation */
 nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
+  list-style: none;
+  padding: 0;
+  display: flex;
 }
 
 nav ul li {
-    margin: 0 15px;
+  margin: 0 15px;
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.1rem;
-    transition: color 0.3s ease;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #faf3e0;
+  color: #faf3e0;
 }
 
 /* Mobile Menu */
 .menu-toggle {
-    display: none;
-    font-size: 2rem;
-    background: none;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    position: absolute;
-    right: 20px; /* Push to the right */
-    top: 50%;
-    transform: translateY(-50%);
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  right: 20px; /* Push to the right */
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .menu-toggle {
-        display: block;
-    }
+  .menu-toggle {
+    display: block;
+  }
 
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        background-color: #004d43;
-        width: 100%;
-        text-align: center;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #004d43;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
 
-    .nav-links.active {
-        display: flex;
-    }
+  .nav-links.active {
+    display: flex;
+  }
 
-    .nav-links li {
-        padding: 15px;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    }
+  .nav-links li {
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
 
-    .nav-links li:last-child {
-        border-bottom: none;
-    }
+  .nav-links li:last-child {
+    border-bottom: none;
+  }
 }
-
 
 /* Hero Section */
 .hero {
-    position: relative;
-    width: 100%;
-    height: 80vh; 
+  position: relative;
+  width: 100%;
+  height: 80vh;
 }
 
 .splide {
-    width: 100%;
-    height: 80%; 
+  width: 100%;
+  height: 80%;
 }
 
 .splide__slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 @media (max-width: 768px) {
-    .hero {
-        margin-top: 20%;
-        height: 30vh;
-    }
+  .hero {
+    margin-top: 20%;
+    height: 30vh;
+  }
 
-    .splide {
-        height: 100%; 
-    }
+  .splide {
+    height: 100%;
+  }
 }
-
-
 
 /* Featured Books Section */
 .featured-books {
-    padding: 60px 20px;
-    background-color: #fff;
-    text-align: center;
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
 }
 
 .featured-books h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #006a63; /* Rich teal for the header */
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #006a63; /* Rich teal for the header */
 }
 
 .book-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .featured-books .book-card {
-    background-color: #f4f1e3; /* Soft cream background */
-    width: 320px;
-    margin: 15px;
-    padding: 20px;
-    text-align: center;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    height: 480px;
+  background-color: #f4f1e3; /* Soft cream background */
+  width: 320px;
+  margin: 15px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  height: 480px;
 }
 
 .book-card:hover {
-    transform: scale(1.05); /* Slight zoom effect for hover */
+  transform: scale(1.05); /* Slight zoom effect for hover */
 }
 
 .book-card img {
-    width: 100%;
-    height: 360px;
-    border-radius: 5px;
+  width: 100%;
+  height: 360px;
+  border-radius: 5px;
 }
 
 .book-card h3 {
-    font-size: 1.3rem;
-    margin: 10px 0;
-    color: #006a63; /* Rich teal for book titles */
+  font-size: 1.3rem;
+  margin: 10px 0;
+  color: #006a63; /* Rich teal for book titles */
 }
 
 .book-card p {
-    font-size: 1rem;
-    color: #555;
+  font-size: 1rem;
+  color: #555;
 }
 
 .book-card .btn {
-    text-decoration: none;
-    background-color: #006a63; /* Rich teal button */
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s;
+  text-decoration: none;
+  background-color: #006a63; /* Rich teal button */
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
 }
 
 .book-card .btn:hover {
-    background-color: #004f48; /* Darker teal on hover */
+  background-color: #004f48; /* Darker teal on hover */
 }
-
 
 /* footer new */
 .footer {
-    background-color: #006a63; /* Theme color */
-    color: white;
-    padding: 30px 0;
-    text-align: center;
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  background-color: #006a63; /* Theme color */
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-content {
-    width: 100%;
-    max-width: 1200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    margin-bottom: 20px;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin-bottom: 20px;
 }
 
 .footer-left p,
 .footer-right p {
-    margin: 0;
+  margin: 0;
 }
 
 .footer-right p a {
-    color: #ffcc00; /* Accent color */
-    text-decoration: none;
+  color: #ffcc00; /* Accent color */
+  text-decoration: none;
 }
 
 .footer-right p a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .footer-social {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
 }
 
 .social-link {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 .social-link:hover {
-    color: #ffcc00; /* Accent color */
+  color: #ffcc00; /* Accent color */
 }
 
 @media (max-width: 768px) {
-    .footer-content {
-        flex-direction: column;
-        text-align: center;
-    }
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
 
-    .footer-social {
-        flex-direction: column;
-        gap: 10px;
-    }
+  .footer-social {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
-
-
 
 /* Custom Buttons */
-button, .btn {
-    cursor: pointer;
+button,
+.btn {
+  cursor: pointer;
 }
 
-button:focus, .btn:focus {
-    outline: none;
-    box-shadow: 0 0 5px #006a63; /* Focus effect with teal color */
+button:focus,
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 5px #006a63; /* Focus effect with teal color */
 }
-
 
 /* book details page  */
 
 .book-details-container {
-    max-width: 1200px;
-    margin: 120px auto 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 120px auto 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .book-details {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px;
 }
 
 .book-cover img {
-    max-width: 300px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .book-info {
-    flex: 1;
-    max-width: 600px;
+  flex: 1;
+  max-width: 600px;
 }
 
 .book-info h1 {
-    font-size: 2.5rem;
-    color: #006a63;
-    margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #006a63;
+  margin-bottom: 20px;
 }
 
 .book-info p {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    color: #333;
-    margin-bottom: 15px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 15px;
 }
 
 .book-info p strong {
-    color: #006a63;
+  color: #006a63;
 }
 
 .btn {
-    display: inline-block;
-    background-color: #006a63;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    font-weight: bold;
-    transition: background-color 0.3s;
+  display: inline-block;
+  background-color: #006a63;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s;
 }
 
 .btn:hover {
-    background-color: #004f49;
+  background-color: #004f49;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .book-details {
-        flex-direction: column;
-        text-align: center;
-    }
+  .book-details {
+    flex-direction: column;
+    text-align: center;
+  }
 
-    .book-cover img {
-        margin-bottom: 20px;
-    }
+  .book-cover img {
+    margin-bottom: 20px;
+  }
 }
 
 /* Swiper Container */
 .swiper-container {
-    position: relative;
-    width: 100%;
-    padding: 40px 0;
+  position: relative;
+  width: 100%;
+  padding: 40px 0;
 }
 
 /* Navigation Buttons (Prev and Next) */
-.swiper-button-next, .swiper-button-prev, .swiper-rtl .swiper-button-next, .swiper-rtl .swiper-button-prev {
-    width: 35px important!;
-    height: 35px;
-    background-color: #fff;
-    color: #ffffff; 
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); 
-    font-size: 18px !important;
-    opacity: 0.7; 
-    transition: all 0.3s ease; 
-    border: 1px solid #ddd; 
-    cursor: pointer; 
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  width: 35px important!;
+  height: 35px;
+  background-color: #fff;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  font-size: 18px !important;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+  border: 1px solid #ddd;
+  cursor: pointer;
 }
 
 /* Hover effect */
-.swiper-button-next:hover, .swiper-button-prev:hover, .swiper-rtl .swiper-button-next:hover, .swiper-rtl .swiper-button-prev:hover {
-    background-color: #f7f7f7; 
-    color: #ffffff; 
-    opacity: 1; 
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2); 
+.swiper-button-next:hover,
+.swiper-button-prev:hover,
+.swiper-rtl .swiper-button-next:hover,
+.swiper-rtl .swiper-button-prev:hover {
+  background-color: #f7f7f7;
+  color: #ffffff;
+  opacity: 1;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* RTL (Right-to-Left) button position adjustment */
 .swiper-rtl .swiper-button-next {
-    right: 10px; /* Position next button on the left */
-    left: auto;
+  right: 10px; /* Position next button on the left */
+  left: auto;
 }
 
 .swiper-rtl .swiper-button-prev {
-    left: 10px; /* Position prev button on the right */
-    right: auto;
+  left: 10px; /* Position prev button on the right */
+  right: auto;
 }
 
 /* Position buttons vertically centered */
-.swiper-button-next, .swiper-button-prev, .swiper-rtl .swiper-button-next, .swiper-rtl .swiper-button-prev {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%); /* Vertically centered */
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); /* Vertically centered */
 }
 
 /* Arrow Icon Size */
-.swiper-button-next::after, .swiper-button-prev::after, .swiper-rtl .swiper-button-next::after, .swiper-rtl .swiper-button-prev::after {
-    font-size: 18px; /* Smaller, more delicate arrow icons */
-    font-weight: bold; /* Make the arrows stand out more */
+.swiper-button-next::after,
+.swiper-button-prev::after,
+.swiper-rtl .swiper-button-next::after,
+.swiper-rtl .swiper-button-prev::after {
+  font-size: 18px; /* Smaller, more delicate arrow icons */
+  font-weight: bold; /* Make the arrows stand out more */
 }
 
 /* Pagination Dots (unchanged) */
 .swiper-pagination {
-    bottom: -10px; /* Move dots closer to the carousel */
+  bottom: -10px; /* Move dots closer to the carousel */
 }
 
 .swiper-pagination-bullet {
-    background-color: #fff;
-    opacity: 0.7;
-    width: 10px;
-    height: 10px;
+  background-color: #fff;
+  opacity: 0.7;
+  width: 10px;
+  height: 10px;
 }
 
 .swiper-pagination-bullet-active {
-    background-color: #6d4f47; /* Highlight active dot */
-    opacity: 1;
+  background-color: #6d4f47; /* Highlight active dot */
+  opacity: 1;
 }
 /* Custom navigation buttons */
 .custom-prev-button,
 .custom-next-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%); /* Vertically center the buttons */
-    width: 30px;
-    height: 30px;
-    background-color: #ffffff;
-    color: #ffffff;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-    opacity: 0.8;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-    z-index: 10;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); /* Vertically center the buttons */
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  opacity: 0.8;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  z-index: 10;
 }
 
 /* Positioning the custom buttons */
 .custom-prev-button {
-    left: -10px; /* Position the previous button on the left side */
+  left: -10px; /* Position the previous button on the left side */
 }
 
 .custom-next-button {
-    right: -10px; /* Position the next button on the right side */
+  right: -10px; /* Position the next button on the right side */
 }
 
 /* Hover effect for custom buttons */
 .custom-prev-button:hover,
 .custom-next-button:hover {
-    background-color: #ccc;
-    color: #ffffff;
-    opacity: 1;
+  background-color: #ccc;
+  color: #ffffff;
+  opacity: 1;
 }
-
 
 /* Make sure swiper wrapper takes full width */
 .swiper-wrapper {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100%;
 }
 /* Arrows inside the buttons */
 .custom-prev-button::before,
 .custom-next-button::before {
-    content: '';
-    display: block;
-    width: 12px;
-    height: 12px;
-    border-left: 3px solid #777;
-    border-bottom: 3px solid #777;
-    transform: rotate(45deg); /* Make the arrow shape */
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-left: 3px solid #777;
+  border-bottom: 3px solid #777;
+  transform: rotate(45deg); /* Make the arrow shape */
 }
 
 /* For previous button, adjust the arrow direction */
 .custom-prev-button::before {
-    transform: rotate(45deg); /* Pointing left */
+  transform: rotate(45deg); /* Pointing left */
 }
 
 /* For next button, adjust the arrow direction */
 .custom-next-button::before {
-    transform: rotate(-135deg); /* Pointing right */
+  transform: rotate(-135deg); /* Pointing right */
 }
 
 /* all books page  */
-.db-books-all{
-    margin:120px auto auto auto;
+.db-books-all {
+  margin: 120px auto auto auto;
 }
-.db-books-all h2{
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #006a63;
-    text-align: center;
+.db-books-all h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #006a63;
+  text-align: center;
 }
 
 /* Cookie Consent Modal Styles */
 .cookie-consent {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;  /* Fullscreen height */
-    background-color: rgba(0, 0, 0, 0.8);  /* Dark overlay */
-    color: #fff;
-    display: none;  /* Hidden by default */
-    align-items: center;
-    justify-content: center;
-    z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; /* Fullscreen height */
+  background-color: rgba(0, 0, 0, 0.8); /* Dark overlay */
+  color: #fff;
+  display: none; /* Hidden by default */
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
 }
 
 .cookie-content {
-    background-color: #333;
-    padding: 40px;
-    border-radius: 12px;
-    text-align: center;
-    max-width: 600px;
-    width: 90%;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  background-color: #333;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 600px;
+  width: 90%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .cookie-content h2 {
-    color: #4CAF50;
-    margin-bottom: 20px;
+  color: #4caf50;
+  margin-bottom: 20px;
 }
 
 .cookie-content p {
-    font-size: 1rem;
-    line-height: 1.6;
-    margin-bottom: 20px;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
 }
 
 .cookie-content a {
-    color: #4CAF50;
-    text-decoration: underline;
+  color: #4caf50;
+  text-decoration: underline;
 }
 
 .button-group {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .cookie-consent button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 12px 25px;
-    cursor: pointer;
-    border-radius: 8px;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
 }
 
 .cookie-consent button:hover {
-    background-color: #45a049;
+  background-color: #45a049;
 }
 
 .cookie-consent button#declineCookies {
-    background-color: #f44336;
+  background-color: #f44336;
 }
 
 .cookie-consent button#declineCookies:hover {
-    background-color: #e53935;
+  background-color: #e53935;
 }
 
 /* Main content placeholder styling */
 .main-content {
-    text-align: center;
-    margin-top: 100px;
+  text-align: center;
+  margin-top: 100px;
 }
 
+/* back to top button  */
+#backToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #008daa;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#backToTopBtn:hover {
+  background-color: #00414f;
+}
+
+/**
+ * Copyright (c) 2025 Sachintha Subasinghe
+ * LibraFlow. All rights reserved.
+ * 
+ * This code is the intellectual property of Sachintha Subasinghe.
+ * Unauthorized copying, modification, distribution, or use 
+ * without explicit permission is strictly prohibited.
+ */

@@ -97,3 +97,10 @@
     <h2>4. Contact Us</h2>
     <p>If you have questions about this policy, contact us at <a href="mailto:support@libraflow.com">support@libraflow.com</a>.</p>
 </div>
+
+ <!-- Copyright (c) 2025 Sachintha Subasinghe
+ * LibraFlow. All rights reserved.
+ * 
+ * This code is the intellectual property of Sachintha Subasinghe.
+ * Unauthorized copying, modification, distribution, or use 
+ * without explicit permission is strictly prohibited. -->

@@ -1,10 +1,11 @@
 <footer class="footer">
     <div class="footer-content">
         <div class="footer-left">
-            <p>&copy; 2025 LibraFlow | Library System | All Rights Reserved</p>
+            <p>&copy; 2025 LibraFlow | Library System | All Rights Reserved.</p>
         </div>
         <div class="footer-right">
             <p>Contact us at: <a href="mailto:info@librarysystem.com">info@libraflow.com</a></p>
+            <p>Our Privacy Policy: <a href="policy.php" target="_blank" style="text-decoration: none;">Check this!</a></p>
         </div>
     </div>
     <div class="footer-social">
@@ -123,3 +124,11 @@
         lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Ensure it's not negative
     });
 </script>
+
+
+ <!-- Copyright (c) 2025 Sachintha Subasinghe
+ * LibraFlow. All rights reserved.
+ * 
+ * This code is the intellectual property of Sachintha Subasinghe.
+ * Unauthorized copying, modification, distribution, or use 
+ * without explicit permission is strictly prohibited. -->

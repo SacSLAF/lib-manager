@@ -15,19 +15,19 @@ include('includes/site-header.php');
     include('includes/hero.php');
     ?>
 
-<div class="cookie-consent" id="cookieConsentModal">
-    <div class="cookie-content">
-        <h2>We Value Your Privacy</h2>
-        <p>We use cookies to enhance your browsing experience, analyze site traffic, and personalize content.
-            By clicking "Accept," you consent to our use of cookies.
-            Read our <a href="policy.php" target="_blank">Privacy Policy</a> for more details.
-        </p>
-        <div class="button-group">
-            <button id="acceptCookies">Accept</button>
-            <button id="declineCookies">Decline</button>
+    <div class="cookie-consent" id="cookieConsentModal">
+        <div class="cookie-content">
+            <h2>We Value Your Privacy</h2>
+            <p>We use cookies to enhance your browsing experience, analyze site traffic, and personalize content.
+                By clicking "Accept," you consent to our use of cookies.
+                Read our <a href="policy.php" target="_blank">Privacy Policy</a> for more details.
+            </p>
+            <div class="button-group">
+                <button id="acceptCookies">Accept</button>
+                <button id="declineCookies">Decline</button>
+            </div>
         </div>
     </div>
-</div>
     <section class="featured-books" style="overflow-x: hidden;">
         <h2>International Fiction Books Collection</h2>
         <div class="swiper-container">
@@ -91,9 +91,36 @@ include('includes/site-header.php');
             <div class="swiper-pagination"></div>
         </div>
     </section>
-
+    <!-- Back to Top Button -->
+    <button id="backToTopBtn" title="Go to top">
+        <img src="assets/images/icons/book-icon.png" alt="Back to Top" style="width: 30px; height: 30px;">
+    </button>
 
     <?php include('includes/site-footer.php'); ?>
+    <script>
+        let backToTopBtn = document.getElementById("backToTopBtn");
+        window.onscroll = function() {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            backToTopBtn.style.display = "block";
+            } else {
+            backToTopBtn.style.display = "none";
+            }
+        }
+        backToTopBtn.addEventListener("click", function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
 </body>
 
 </html>
+
+ <!-- Copyright (c) 2025 Sachintha Subasinghe
+ * LibraFlow. All rights reserved.
+ * 
+ * This code is the intellectual property of Sachintha Subasinghe.
+ * Unauthorized copying, modification, distribution, or use 
+ * without explicit permission is strictly prohibited. -->

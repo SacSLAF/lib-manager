@@ -82,3 +82,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 $content_page = 'edit-books-content.php';
 include('template/admin-template.php');
+
+
+// Copyright (c) 2025 Sachintha Subasinghe
+// LibraFlow. All rights reserved.
+
+// This code is the intellectual property of Sachintha Subasinghe.
+// Unauthorized copying, modification, distribution, or use 
+// without explicit permission is strictly prohibited.

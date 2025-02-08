@@ -1,0 +1,16 @@
+LICENSE
+
+Copyright (c) 2025 Sachintha Subasinghe
+All Rights Reserved.
+
+This LibraFlow and associated documentation files (the "LibraFlow") are the intellectual property of Sachintha Subasinghe.
+
+Restrictions:
+1. Unauthorized copying, modification, distribution, or use of the LibraFlow is strictly prohibited.
+2. The LibraFlow may not be used for commercial purposes without explicit written permission from the copyright owner.
+3. Any derivative works based on the LibraFlow require prior consent from the copyright owner.
+
+Disclaimer:
+THE LibraFlow IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF THE LibraFlow.
+
+--------------------------------------------------------

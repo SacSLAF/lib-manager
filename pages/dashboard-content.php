@@ -52,3 +52,11 @@ $borrowedcount = $borrowedRow['totalBorrowed'];
     <p>Here you can manage books, users, and monitor borrowing activity.</p>
 </div> -->
 </div>
+
+
+ <!-- Copyright (c) 2025 Sachintha Subasinghe
+ * LibraFlow. All rights reserved.
+ * 
+ * This code is the intellectual property of Sachintha Subasinghe.
+ * Unauthorized copying, modification, distribution, or use 
+ * without explicit permission is strictly prohibited. -->

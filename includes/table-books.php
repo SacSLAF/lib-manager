@@ -119,3 +119,11 @@
         <a href="all_books.php" class="btn-see-all">See All Books</a>
     </div>
 </section>
+
+
+ <!-- Copyright (c) 2025 Sachintha Subasinghe
+ * LibraFlow. All rights reserved.
+ * 
+ * This code is the intellectual property of Sachintha Subasinghe.
+ * Unauthorized copying, modification, distribution, or use 
+ * without explicit permission is strictly prohibited. -->

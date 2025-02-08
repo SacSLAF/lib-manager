@@ -43,3 +43,11 @@ function deleteUser($user_id) {
     $stmt->bindParam(':user_id', $user_id, PDO::PARAM_INT);
     return $stmt->execute();
 }
+
+
+// Copyright (c) 2025 Sachintha Subasinghe
+// LibraFlow. All rights reserved.
+
+// This code is the intellectual property of Sachintha Subasinghe.
+// Unauthorized copying, modification, distribution, or use 
+// without explicit permission is strictly prohibited.

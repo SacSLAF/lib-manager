@@ -20,7 +20,7 @@ if (!isset($_SESSION['user_id'])) {
 <body>
     <!-- Sidebar -->
     <div class="sidebar">
-        <h2><?php echo ($_SESSION['user_role'] == 'admin') ? 'Admin Panel' : 'User Panel'; ?></h2>
+        <h2><a href="dashboard.php" style="text-decoration:none;color:white;text-shadow: 2px 2px 4px #000000;"><?php echo ($_SESSION['user_role'] == 'admin') ? 'Admin Panel' : 'User Panel'; ?></a></h2>
         <ul>
             <?php if ($_SESSION['user_role'] == 'admin') : ?>
                 <li><a href="dashboard.php">Dashboard</a></li>
@@ -28,6 +28,8 @@ if (!isset($_SESSION['user_id'])) {
                 <li><a href="manage-users.php">Manage Users</a></li>
                 <li><a href="view-borrowed-books.php">View Borrowed Books</a></li>
             <?php else : ?>
+                <li><a href="dashboard.php">Dashboard</a></li>
+                <li><a href="mybooklist.php">My book collection</a></li>
                 <li><a href="borrow-books.php">Borrow Books</a></li>
                 <li><a href="search-books.php">Search Books</a></li>
             <?php endif; ?>
@@ -60,3 +62,10 @@ if (!isset($_SESSION['user_id'])) {
 </body>
 
 </html>
+
+ <!-- Copyright (c) 2025 Sachintha Subasinghe
+ * LibraFlow. All rights reserved.
+ * 
+ * This code is the intellectual property of Sachintha Subasinghe.
+ * Unauthorized copying, modification, distribution, or use 
+ * without explicit permission is strictly prohibited. -->

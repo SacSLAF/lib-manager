@@ -127,7 +127,15 @@ include('includes/site-header.php');
         <div class="contact-title">
             <h2>Contact Us</h2>
         </div>
-
+        <?php
+        if (isset($_GET['status'])) {
+            if ($_GET['status'] == 'success') {
+            echo '<div class="alert alert-success" style="text-align: center; padding: 10px; border-radius: 5px; background-color: #d4edda; color: #155724; margin-bottom: 20px;">Your message has been sent successfully!</div>';
+            } elseif ($_GET['status'] == 'error') {
+            echo '<div class="alert alert-danger" style="text-align: center; padding: 10px; border-radius: 5px; background-color: #f8d7da; color: #721c24; margin-bottom: 20px;">There was an error sending your message. Please try again.</div>';
+            }
+        }
+        ?>
         <div class="contact-form">
             <form action="submit-contact.php" method="POST">
                 <div class="form-group">
@@ -159,3 +167,10 @@ include('includes/site-header.php');
 </body>
 
 </html>
+
+ <!-- Copyright (c) 2025 Sachintha Subasinghe
+ * LibraFlow. All rights reserved.
+ * 
+ * This code is the intellectual property of Sachintha Subasinghe.
+ * Unauthorized copying, modification, distribution, or use 
+ * without explicit permission is strictly prohibited. -->
