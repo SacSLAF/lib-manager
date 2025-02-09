@@ -50,6 +50,31 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="../assets/css/style.css">
+    <script>
+        function validateForm() {
+            var email = document.forms["loginForm"]["email"].value;
+            var password = document.forms["loginForm"]["password"].value;
+            var error = "";
+
+            if (email == "" || !validateEmail(email)) {
+                error += "Please enter a valid email.\n";
+            }
+            if (password == "") {
+                error += "Password is required.\n";
+            }
+
+            if (error != "") {
+                alert(error);
+                return false;
+            }
+            return true;
+        }
+
+        function validateEmail(email) {
+            var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return re.test(email);
+        }
+    </script>
 </head>
 
 <body>
@@ -68,13 +93,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <div class="success"><?php echo $success; ?></div>
             <?php endif; ?>
             <!-- Login Form -->
-            <form method="POST" action="">
+            <form name="loginForm" method="POST" action="" onsubmit="return validateForm()">
                 <label>Email:</label>
                 <input type="email" name="email" value="<?php echo htmlspecialchars($email); ?>" required>
                 <label>Password:</label>
                 <input type="password" name="password" required>
                 <button type="submit">Login</button>
             </form>
+            <p>Not a member? <a href="register.php">Register here</a></p>
         </div>
     </div>
 </body>
